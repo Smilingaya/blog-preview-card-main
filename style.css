@@ -94,6 +94,17 @@ font-size: 15px;
 margin-top: 6px;
 
 }
-
+@media (max-width: 400px){
+    .container{
+        width: 310px;
+        height: 460px;
+    }
+   .container> img{
+width: 100%;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
 
 
